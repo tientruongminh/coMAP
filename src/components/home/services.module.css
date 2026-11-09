@@ -1,0 +1,74 @@
+/* S5 cell visuals: each plays once when its cell scrolls in (Armed + useArm).
+   Default rules are the final state: server, no-JS and reduced motion. */
+.root {
+  --e: cubic-bezier(0.22, 1, 0.36, 1);
+  --pop: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.line {
+  transform-origin: left center;
+  transition: transform 1000ms var(--e) 150ms;
+}
+.stop {
+  transition:
+    transform 420ms var(--pop),
+    opacity 200ms var(--e);
+  transition-delay: calc(var(--i, 0) * 170ms + 150ms);
+}
+.ring {
+  transform-box: fill-box;
+  transform-origin: center;
+  transition:
+    transform 1100ms var(--e) 100ms,
+    opacity 400ms var(--e) 100ms;
+}
+.drop {
+  transition:
+    transform 520ms var(--pop),
+    opacity 200ms var(--e);
+  transition-delay: calc(var(--i, 0) * 140ms + 600ms);
+}
+.draw {
+  --d: calc(var(--i, 0) * 140ms + 500ms);
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+  transition:
+    stroke-dashoffset 600ms var(--e) var(--d),
+    opacity 1ms linear var(--d);
+}
+.check {
+  transition:
+    transform 420ms var(--pop),
+    background-color 200ms var(--e);
+  transition-delay: calc(var(--i, 0) * 160ms + 250ms);
+}
+.check > * {
+  transition: opacity 200ms var(--e);
+  transition-delay: calc(var(--i, 0) * 160ms + 250ms);
+}
+
+.root[data-armed]:not([data-on]) .line {
+  transform: scaleX(0);
+}
+.root[data-armed]:not([data-on]) .stop {
+  transform: scale(0.4);
+  opacity: 0;
+}
+.root[data-armed]:not([data-on]) .ring {
+  transform: scale(0.3);
+  opacity: 0;
+}
+.root[data-armed]:not([data-on]) .drop {
+  transform: translateY(-14px);
+  opacity: 0;
+}
+.root[data-armed]:not([data-on]) .draw {
+  stroke-dashoffset: 1;
+  opacity: 0;
+}
+.root[data-armed]:not([data-on]) .check {
+  transform: scale(0.7);
+  background-color: var(--color-line);
+}
+.root[data-armed]:not([data-on]) .check > * {
+  opacity: 0;
+}

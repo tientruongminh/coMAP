@@ -1,0 +1,22 @@
+# secrets
+.env
+.env*
+
+# Google Drive export (contains real CVs / personal data)
+drive/
+
+# dependencies / build
+/node_modules
+/.next/
+/out/
+/build
+/coverage
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+.DS_Store
+*.pem
+npm-debug.log*
+
+# form submissions collected locally (personal data)
+/data/submissions/

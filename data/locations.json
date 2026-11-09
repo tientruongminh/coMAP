@@ -1,0 +1,2006 @@
+{
+  "meta": {
+    "note": "Dữ liệu minh họa cho bản demo Co-Map. Trường học: thông tin công khai (tên, địa chỉ, website). Cơ sở thực tập: trừ Trung tâm HiPO (dữ liệu thật từ hồ sơ Co-Map), tất cả là đơn vị giả định. Số điện thoại/email giả định không có thật.",
+    "source": {
+      "verified": "Dữ liệu thật do đội ngũ Co-Map thu thập",
+      "public": "Thông tin công khai của trường; tài liệu đính kèm là minh họa",
+      "demo": "Đơn vị giả định phục vụ trình diễn"
+    },
+    "fields": [
+      "Giáo dục học",
+      "Quản lý giáo dục",
+      "Công nghệ giáo dục",
+      "Sư phạm",
+      "Tâm lý học giáo dục",
+      "Giáo dục đặc biệt"
+    ],
+    "workTypes": [
+      "Toàn thời gian",
+      "Bán thời gian",
+      "Linh hoạt"
+    ],
+    "stipends": [
+      "Có phụ cấp",
+      "Thỏa thuận"
+    ],
+    "sizes": {
+      "small": "Nhỏ (dưới 50 nhân sự)",
+      "medium": "Vừa (50 đến 200 nhân sự)",
+      "large": "Lớn (trên 200 nhân sự)"
+    },
+    "areas": [
+      "Quận 1",
+      "Quận 3",
+      "Quận 4",
+      "Quận 5",
+      "Quận 6",
+      "Quận 7",
+      "Quận 8",
+      "Quận 10",
+      "Quận 11",
+      "Quận 12",
+      "Bình Thạnh",
+      "Bình Tân",
+      "Gò Vấp",
+      "Phú Nhuận",
+      "Tân Bình",
+      "Tân Phú",
+      "TP. Thủ Đức",
+      "Bình Chánh",
+      "Cần Giờ",
+      "Củ Chi",
+      "Hóc Môn",
+      "Nhà Bè"
+    ],
+    "updated": "2026-11-09"
+  },
+  "locations": [
+    {
+      "type": "school",
+      "phone": null,
+      "email": null,
+      "id": "ussh-giaoduc",
+      "name": "Trường Đại học Khoa học Xã hội và Nhân văn, ĐHQG-HCM",
+      "short": "ĐH KHXH&NV",
+      "unit": "Ngành Giáo dục học, Khoa Giáo dục",
+      "ownership": "public",
+      "fields": [
+        "Giáo dục học",
+        "Quản lý giáo dục",
+        "Tâm lý học giáo dục"
+      ],
+      "address": "10-12 Đinh Tiên Hoàng",
+      "ward": "Sài Gòn",
+      "area": "Quận 1",
+      "lat": 10.786023,
+      "lng": 106.703053,
+      "website": "https://hcmussh.edu.vn/giaoduc",
+      "size": "large",
+      "source": "verified",
+      "description": "Đơn vị đào tạo cử nhân Giáo dục học và Quản lý giáo dục; tổ chức Thực tập 2 và Thực tập 3 tại các cơ sở giáo dục trên địa bàn thành phố.",
+      "documents": [
+        {
+          "kind": "program",
+          "title": "Chương trình đào tạo cử nhân Giáo dục học áp dụng cho khóa 2021 và 2022"
+        },
+        {
+          "kind": "program",
+          "title": "Chương trình đào tạo cử nhân Giáo dục học áp dụng cho khóa 2023 và 2024"
+        },
+        {
+          "kind": "syllabus",
+          "title": "Đề cương học phần Thực tập 2 ngành Giáo dục học năm học 2025-2026"
+        },
+        {
+          "kind": "syllabus",
+          "title": "Đề cương học phần Thực tập 3 ngành Giáo dục học năm học 2025-2026"
+        }
+      ],
+      "positions": []
+    },
+    {
+      "type": "school",
+      "phone": null,
+      "email": null,
+      "id": "hcmue",
+      "name": "Trường Đại học Sư phạm Thành phố Hồ Chí Minh",
+      "short": "ĐH Sư phạm TP.HCM",
+      "unit": "Khoa Khoa học Giáo dục · Khoa Giáo dục Đặc biệt · Khoa Tâm lý học",
+      "ownership": "public",
+      "fields": [
+        "Sư phạm",
+        "Giáo dục học",
+        "Quản lý giáo dục",
+        "Tâm lý học giáo dục",
+        "Giáo dục đặc biệt"
+      ],
+      "address": "280 An Dương Vương",
+      "ward": "Chợ Quán",
+      "area": "Quận 5",
+      "lat": 10.761946,
+      "lng": 106.681797,
+      "website": "https://hcmue.edu.vn",
+      "size": "large",
+      "source": "public",
+      "description": "Trường sư phạm trọng điểm phía Nam, đào tạo giáo viên các cấp và cử nhân khoa học giáo dục.",
+      "documents": [
+        {
+          "kind": "program",
+          "title": "Chương trình đào tạo ngành Giáo dục học (minh họa)"
+        },
+        {
+          "kind": "program",
+          "title": "Chương trình đào tạo ngành Giáo dục Đặc biệt (minh họa)"
+        },
+        {
+          "kind": "syllabus",
+          "title": "Đề cương Thực tập sư phạm 2 (minh họa)"
+        }
+      ],
+      "positions": []
+    },
+    {
+      "type": "school",
+      "phone": null,
+      "email": null,
+      "id": "sgu",
+      "name": "Trường Đại học Sài Gòn",
+      "short": "ĐH Sài Gòn",
+      "unit": "Khoa Giáo dục · Khoa Sư phạm Khoa học Tự nhiên",
+      "ownership": "public",
+      "fields": [
+        "Sư phạm",
+        "Quản lý giáo dục"
+      ],
+      "address": "273 An Dương Vương",
+      "ward": "Chợ Quán",
+      "area": "Quận 5",
+      "lat": 10.759703,
+      "lng": 106.681759,
+      "website": "https://sgu.edu.vn",
+      "size": "large",
+      "source": "public",
+      "description": "Trường đại học công lập trực thuộc UBND TP.HCM, đào tạo giáo viên mầm non, tiểu học, THCS và quản lý giáo dục.",
+      "documents": [
+        {
+          "kind": "program",
+          "title": "Chương trình đào tạo ngành Quản lý giáo dục (minh họa)"
+        },
+        {
+          "kind": "syllabus",
+          "title": "Đề cương Thực tập sư phạm cuối khóa (minh họa)"
+        }
+      ],
+      "positions": []
+    },
+    {
+      "type": "school",
+      "phone": null,
+      "email": null,
+      "id": "hcmute",
+      "name": "Trường Đại học Công nghệ Kỹ thuật TP.HCM",
+      "short": "ĐH Công nghệ Kỹ thuật",
+      "unit": "Viện Sư phạm Kỹ thuật",
+      "ownership": "public",
+      "fields": [
+        "Sư phạm",
+        "Công nghệ giáo dục"
+      ],
+      "address": "1 Võ Văn Ngân",
+      "ward": "Thủ Đức",
+      "area": "TP. Thủ Đức",
+      "lat": 10.852791,
+      "lng": 106.772558,
+      "website": "https://hcmute.edu.vn",
+      "size": "large",
+      "source": "public",
+      "description": "Tiền thân là Trường ĐH Sư phạm Kỹ thuật TP.HCM; đào tạo giáo viên kỹ thuật, nghề nghiệp và ứng dụng công nghệ trong dạy học.",
+      "documents": [
+        {
+          "kind": "program",
+          "title": "Chương trình đào tạo Sư phạm kỹ thuật (minh họa)"
+        },
+        {
+          "kind": "syllabus",
+          "title": "Đề cương Thực tập giảng dạy (minh họa)"
+        }
+      ],
+      "positions": []
+    },
+    {
+      "type": "school",
+      "phone": null,
+      "email": null,
+      "id": "upes",
+      "name": "Trường Đại học Sư phạm Thể dục Thể thao TP.HCM",
+      "short": "ĐH Sư phạm TDTT",
+      "unit": "Khoa Giáo dục Thể chất",
+      "ownership": "public",
+      "fields": [
+        "Sư phạm"
+      ],
+      "address": "639 Nguyễn Trãi",
+      "ward": "Chợ Lớn",
+      "area": "Quận 5",
+      "lat": 10.752889,
+      "lng": 106.663808,
+      "website": "https://upes.edu.vn",
+      "size": "medium",
+      "source": "public",
+      "description": "Đào tạo giáo viên giáo dục thể chất và huấn luyện viên thể thao trường học.",
+      "documents": [
+        {
+          "kind": "program",
+          "title": "Chương trình đào tạo ngành Giáo dục Thể chất (minh họa)"
+        },
+        {
+          "kind": "syllabus",
+          "title": "Đề cương Thực tập sư phạm (minh họa)"
+        }
+      ],
+      "positions": []
+    },
+    {
+      "type": "school",
+      "phone": null,
+      "email": null,
+      "id": "nce",
+      "name": "Trường Cao đẳng Sư phạm Trung ương TP.HCM",
+      "short": "CĐ Sư phạm Trung ương",
+      "unit": "Khoa Giáo dục Mầm non",
+      "ownership": "public",
+      "fields": [
+        "Sư phạm",
+        "Giáo dục đặc biệt"
+      ],
+      "address": "182 Nguyễn Chí Thanh",
+      "ward": "Vườn Lài",
+      "area": "Quận 10",
+      "lat": 10.76076,
+      "lng": 106.670567,
+      "website": "https://ncehcm.edu.vn",
+      "size": "medium",
+      "source": "public",
+      "description": "Trường cao đẳng sư phạm tập trung đào tạo giáo viên mầm non và giáo dục hòa nhập.",
+      "documents": [
+        {
+          "kind": "program",
+          "title": "Chương trình đào tạo Giáo dục Mầm non (minh họa)"
+        },
+        {
+          "kind": "syllabus",
+          "title": "Đề cương Kiến tập và Thực tập (minh họa)"
+        }
+      ],
+      "positions": []
+    },
+    {
+      "type": "school",
+      "phone": null,
+      "email": null,
+      "id": "vlu",
+      "name": "Trường Đại học Văn Lang",
+      "short": "ĐH Văn Lang",
+      "unit": "Khoa Tâm lý học",
+      "ownership": "private",
+      "fields": [
+        "Tâm lý học giáo dục"
+      ],
+      "address": "69/68 Đặng Thùy Trâm",
+      "ward": "Bình Lợi Trung",
+      "area": "Bình Thạnh",
+      "lat": 10.828479,
+      "lng": 106.703031,
+      "website": "https://vlu.edu.vn",
+      "size": "large",
+      "source": "public",
+      "description": "Đại học tư thục đào tạo ngành Tâm lý học với định hướng tham vấn và tâm lý học đường.",
+      "documents": [
+        {
+          "kind": "program",
+          "title": "Chương trình đào tạo ngành Tâm lý học (minh họa)"
+        },
+        {
+          "kind": "syllabus",
+          "title": "Đề cương Thực tập nghề nghiệp (minh họa)"
+        }
+      ],
+      "positions": []
+    },
+    {
+      "type": "school",
+      "phone": null,
+      "email": null,
+      "id": "hutech",
+      "name": "Trường Đại học Công nghệ TP.HCM (HUTECH)",
+      "short": "HUTECH",
+      "unit": "Viện Khoa học Xã hội & Nhân văn",
+      "ownership": "private",
+      "fields": [
+        "Tâm lý học giáo dục"
+      ],
+      "address": "475A Điện Biên Phủ",
+      "ward": "Thạnh Mỹ Tây",
+      "area": "Bình Thạnh",
+      "lat": 10.801249,
+      "lng": 106.71481,
+      "website": "https://hutech.edu.vn",
+      "size": "large",
+      "source": "public",
+      "description": "Đào tạo ngành Tâm lý học theo hướng ứng dụng: tham vấn, tâm lý học đường, tâm lý tổ chức.",
+      "documents": [
+        {
+          "kind": "program",
+          "title": "Chương trình đào tạo ngành Tâm lý học (minh họa)"
+        },
+        {
+          "kind": "syllabus",
+          "title": "Đề cương Thực tập tốt nghiệp (minh họa)"
+        }
+      ],
+      "positions": []
+    },
+    {
+      "type": "school",
+      "phone": null,
+      "email": null,
+      "id": "nttu",
+      "name": "Trường Đại học Nguyễn Tất Thành",
+      "short": "ĐH Nguyễn Tất Thành",
+      "unit": "Khoa Giáo dục Mầm non",
+      "ownership": "private",
+      "fields": [
+        "Sư phạm"
+      ],
+      "address": "300A Nguyễn Tất Thành",
+      "ward": "Xóm Chiếu",
+      "area": "Quận 4",
+      "lat": 10.761868,
+      "lng": 106.709345,
+      "website": "https://ntt.edu.vn",
+      "size": "large",
+      "source": "public",
+      "description": "Đại học tư thục có đào tạo giáo viên mầm non theo định hướng thực hành.",
+      "documents": [
+        {
+          "kind": "program",
+          "title": "Chương trình đào tạo Giáo dục Mầm non (minh họa)"
+        },
+        {
+          "kind": "syllabus",
+          "title": "Đề cương Thực tập sư phạm (minh họa)"
+        }
+      ],
+      "positions": []
+    },
+    {
+      "type": "school",
+      "phone": null,
+      "email": null,
+      "id": "hiu",
+      "name": "Trường Đại học Quốc tế Hồng Bàng",
+      "short": "ĐH Quốc tế Hồng Bàng",
+      "unit": "Khoa Giáo dục",
+      "ownership": "private",
+      "fields": [
+        "Sư phạm",
+        "Giáo dục học"
+      ],
+      "address": "215 Điện Biên Phủ",
+      "ward": "Gia Định",
+      "area": "Bình Thạnh",
+      "lat": 10.800576,
+      "lng": 106.70601,
+      "website": "https://hiu.vn",
+      "size": "large",
+      "source": "public",
+      "description": "Đại học tư thục có khối ngành giáo dục, đào tạo giáo viên mầm non và tiểu học.",
+      "documents": [
+        {
+          "kind": "program",
+          "title": "Chương trình đào tạo khối ngành Giáo dục (minh họa)"
+        },
+        {
+          "kind": "syllabus",
+          "title": "Đề cương Kiến tập sư phạm (minh họa)"
+        }
+      ],
+      "positions": []
+    },
+    {
+      "id": "hipo",
+      "name": "Trung tâm Giáo dục Đào tạo Kỹ năng HiPO",
+      "short": "HiPO",
+      "ownership": "private",
+      "fields": [
+        "Giáo dục học",
+        "Sư phạm"
+      ],
+      "address": "38B/14 Cây Keo",
+      "ward": "Tam Bình",
+      "area": "TP. Thủ Đức",
+      "lat": 10.856646,
+      "lng": 106.738032,
+      "size": "small",
+      "source": "verified",
+      "phone": "0767 778 002",
+      "email": "hipo.edu.vn@gmail.com",
+      "website": "https://www.hipo.edu.vn",
+      "description": "Trung tâm giáo dục kỹ năng sống, bơi lội và tiếng Anh cho trẻ; đối tác thực tập của sinh viên ngành Giáo dục học.",
+      "positions": [
+        {
+          "title": "Giáo viên dạy Kỹ năng sống",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "roles": [
+            "giao-vien-ky-nang-song"
+          ]
+        },
+        {
+          "title": "Giáo viên dạy Bơi lội",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "roles": [
+            "giao-vien"
+          ]
+        },
+        {
+          "title": "Giáo viên Tiếng Anh",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "roles": [
+            "giao-vien"
+          ]
+        }
+      ],
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch Thực tập 2 năm 2025, ngành Giáo dục học"
+        },
+        {
+          "kind": "plan",
+          "title": "Kế hoạch Thực tập 3 năm 2025, ngành Giáo dục học"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Giáo viên dạy Bơi lội"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Giáo viên Tiếng Anh"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Giáo viên dạy Kỹ năng sống"
+        }
+      ],
+      "partners": [
+        "ussh-giaoduc"
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "haidang-ielts",
+      "name": "Anh ngữ Hải Đăng IELTS",
+      "ownership": "private",
+      "fields": [
+        "Sư phạm",
+        "Giáo dục học"
+      ],
+      "address": "54 Nguyễn Gia Trí",
+      "ward": "Thạnh Mỹ Tây",
+      "area": "Bình Thạnh",
+      "lat": 10.805057,
+      "lng": 106.715855,
+      "size": "small",
+      "description": "Trung tâm luyện thi IELTS quy mô nhỏ, lớp tối đa 12 học viên, chú trọng kỹ năng Speaking.",
+      "positions": [
+        {
+          "title": "Trợ giảng IELTS Speaking",
+          "workType": "Linh hoạt",
+          "stipend": "Có phụ cấp",
+          "stipendNote": "150.000-260.000đ/buổi",
+          "schedule": "Tối thiểu 25 giờ/tuần, ca tối",
+          "slots": 4,
+          "roles": [
+            "tro-giang"
+          ]
+        },
+        {
+          "title": "Tư vấn tuyển sinh",
+          "workType": "Toàn thời gian",
+          "stipend": "Thỏa thuận",
+          "schedule": "8 giờ/ngày, nghỉ 6 ngày/tháng",
+          "slots": 1,
+          "roles": [
+            "tu-van-tuyen-sinh"
+          ]
+        }
+      ],
+      "partners": [
+        "hutech",
+        "hiu"
+      ],
+      "source": "demo",
+      "phone": "028 0347 1313",
+      "email": "tuyendung@haidang-ielts.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Trợ giảng IELTS Speaking"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Tư vấn tuyển sinh"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "la-me-school",
+      "name": "Trường Tiểu học và THCS Tư thục Lá Me",
+      "ownership": "private",
+      "fields": [
+        "Tâm lý học giáo dục",
+        "Quản lý giáo dục",
+        "Sư phạm"
+      ],
+      "address": "612 Võ Nguyên Giáp",
+      "ward": "Tăng Nhơn Phú",
+      "area": "TP. Thủ Đức",
+      "lat": 10.845959,
+      "lng": 106.771741,
+      "size": "medium",
+      "description": "Trường liên cấp hai cấp học, có phòng tham vấn học đường và chương trình kỹ năng xã hội và cảm xúc.",
+      "positions": [
+        {
+          "title": "Thực tập sinh Tham vấn tâm lý học đường",
+          "workType": "Toàn thời gian",
+          "stipend": "Có phụ cấp",
+          "stipendNote": "2.000.000đ/tháng",
+          "schedule": "Thứ Hai đến Thứ Sáu, giờ hành chính",
+          "slots": 2,
+          "roles": [
+            "tu-van-tam-ly"
+          ]
+        },
+        {
+          "title": "Trợ giảng lớp tiểu học",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "schedule": "Buổi sáng",
+          "slots": 3,
+          "roles": [
+            "tro-giang"
+          ]
+        },
+        {
+          "title": "Thực tập sinh Giáo vụ",
+          "workType": "Toàn thời gian",
+          "stipend": "Thỏa thuận",
+          "slots": 1,
+          "roles": [
+            "giao-vu"
+          ]
+        }
+      ],
+      "partners": [
+        "vlu",
+        "hcmute",
+        "ussh-giaoduc"
+      ],
+      "source": "demo",
+      "phone": "028 0384 1426",
+      "email": "tuyendung@la-me-school.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Thực tập sinh Tham vấn tâm lý học đường"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Trợ giảng lớp tiểu học"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Thực tập sinh Giáo vụ"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "buoc-nho",
+      "name": "Trung tâm Can thiệp sớm & Giáo dục hòa nhập Bước Nhỏ",
+      "ownership": "private",
+      "fields": [
+        "Giáo dục đặc biệt",
+        "Tâm lý học giáo dục"
+      ],
+      "address": "27 Huỳnh Văn Bánh",
+      "ward": "Phú Nhuận",
+      "area": "Phú Nhuận",
+      "lat": 10.791217,
+      "lng": 106.669745,
+      "size": "small",
+      "description": "Can thiệp sớm cá nhân cho trẻ có nhu cầu giáo dục đặc biệt; hỗ trợ phụ huynh và giáo viên trường hòa nhập.",
+      "positions": [
+        {
+          "title": "Giáo viên can thiệp cá nhân (thực tập)",
+          "workType": "Toàn thời gian",
+          "stipend": "Có phụ cấp",
+          "stipendNote": "1.500.000đ/tháng",
+          "slots": 2,
+          "roles": [
+            "giao-vien"
+          ]
+        },
+        {
+          "title": "Trợ giảng lớp hòa nhập",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "schedule": "Ca chiều",
+          "slots": 2,
+          "roles": [
+            "tro-giang"
+          ]
+        }
+      ],
+      "partners": [
+        "hcmue",
+        "nce"
+      ],
+      "source": "demo",
+      "phone": "028 0421 1539",
+      "email": "tuyendung@buoc-nho.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Giáo viên can thiệp cá nhân (thực tập)"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Trợ giảng lớp hòa nhập"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "to-mo-steam",
+      "name": "Xưởng STEAM Tò Mò",
+      "ownership": "private",
+      "fields": [
+        "Công nghệ giáo dục",
+        "Sư phạm"
+      ],
+      "address": "41 Võ Văn Tần",
+      "ward": "Xuân Hòa",
+      "area": "Quận 3",
+      "lat": 10.781078,
+      "lng": 106.694422,
+      "size": "small",
+      "description": "Lớp học dự án STEAM cho học sinh 6-12 tuổi: lắp ráp, cơ khí đơn giản, lập trình khối.",
+      "positions": [
+        {
+          "title": "Trợ giảng STEAM",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "schedule": "Thứ Hai đến Thứ Sáu, 14:00-16:00",
+          "slots": 3,
+          "roles": [
+            "giao-vien-steam",
+            "tro-giang"
+          ]
+        },
+        {
+          "title": "Giáo viên STEM (thực tập)",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "schedule": "Cuối tuần",
+          "slots": 1,
+          "roles": [
+            "giao-vien-steam"
+          ]
+        }
+      ],
+      "partners": [
+        "hcmute",
+        "sgu"
+      ],
+      "source": "demo",
+      "phone": "028 0458 1652",
+      "email": "tuyendung@to-mo-steam.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Trợ giảng STEAM"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Giáo viên STEM (thực tập)"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "vo-mo",
+      "name": "Công ty Cổ phần Công nghệ Giáo dục Vở Mở",
+      "ownership": "private",
+      "fields": [
+        "Công nghệ giáo dục",
+        "Giáo dục học"
+      ],
+      "address": "Tầng 6, 72 Lê Thánh Tôn",
+      "ward": "Sài Gòn",
+      "area": "Quận 1",
+      "lat": 10.776561,
+      "lng": 106.700398,
+      "size": "medium",
+      "description": "Nền tảng học liệu số cho giáo viên THCS; đội ngũ thiết kế bài giảng và đánh giá năng lực trực tuyến.",
+      "positions": [
+        {
+          "title": "Thực tập sinh Thiết kế học liệu số",
+          "workType": "Toàn thời gian",
+          "stipend": "Có phụ cấp",
+          "stipendNote": "3.000.000đ/tháng",
+          "slots": 2,
+          "roles": [
+            "chuyen-vien-dao-tao"
+          ]
+        },
+        {
+          "title": "Thực tập sinh Marketing nội dung giáo dục",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "slots": 1,
+          "roles": [
+            "marketing"
+          ]
+        }
+      ],
+      "partners": [
+        "ussh-giaoduc",
+        "hcmute"
+      ],
+      "source": "demo",
+      "phone": "028 0495 1765",
+      "email": "tuyendung@vo-mo.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Thực tập sinh Thiết kế học liệu số"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Thực tập sinh Marketing nội dung giáo dục"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "hoa-gao",
+      "name": "Trung tâm Ngoại ngữ Hoa Gạo",
+      "ownership": "private",
+      "fields": [
+        "Sư phạm",
+        "Quản lý giáo dục"
+      ],
+      "address": "318 Phan Văn Trị",
+      "ward": "Gò Vấp",
+      "area": "Gò Vấp",
+      "lat": 10.835792,
+      "lng": 106.66508,
+      "size": "medium",
+      "description": "Tiếng Anh thiếu nhi với giáo viên bản ngữ; 4 cơ sở tại khu vực Gò Vấp.",
+      "positions": [
+        {
+          "title": "Trợ giảng cho giáo viên nước ngoài",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "schedule": "Ca tối và cuối tuần",
+          "slots": 4,
+          "roles": [
+            "tro-giang"
+          ]
+        },
+        {
+          "title": "Thực tập sinh Giáo vụ",
+          "workType": "Toàn thời gian",
+          "stipend": "Thỏa thuận",
+          "slots": 1,
+          "roles": [
+            "giao-vu"
+          ]
+        }
+      ],
+      "partners": [
+        "sgu",
+        "hiu"
+      ],
+      "source": "demo",
+      "phone": "028 0532 1878",
+      "email": "tuyendung@hoa-gao.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Trợ giảng cho giáo viên nước ngoài"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Thực tập sinh Giáo vụ"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "hat-dau-nho",
+      "name": "Trường Mầm non Tư thục Hạt Đậu Nhỏ",
+      "ownership": "private",
+      "fields": [
+        "Sư phạm",
+        "Giáo dục học"
+      ],
+      "address": "215 Nguyễn Thị Thập",
+      "ward": "Tân Mỹ",
+      "area": "Quận 7",
+      "lat": 10.737497,
+      "lng": 106.724351,
+      "size": "small",
+      "description": "Trường mầm non theo hướng tiếp cận trải nghiệm, lớp tối đa 18 trẻ.",
+      "positions": [
+        {
+          "title": "Giáo viên mầm non (thực tập)",
+          "workType": "Toàn thời gian",
+          "stipend": "Có phụ cấp",
+          "stipendNote": "1.500.000đ/tháng",
+          "slots": 3,
+          "roles": [
+            "giao-vien"
+          ]
+        },
+        {
+          "title": "Trợ giảng lớp song ngữ",
+          "workType": "Bán thời gian",
+          "stipend": "Thỏa thuận",
+          "slots": 2,
+          "roles": [
+            "tro-giang"
+          ]
+        }
+      ],
+      "partners": [
+        "nttu",
+        "nce",
+        "sgu"
+      ],
+      "source": "demo",
+      "phone": "028 0569 1991",
+      "email": "tuyendung@hat-dau-nho.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Giáo viên mầm non (thực tập)"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Trợ giảng lớp song ngữ"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "lang-nghe",
+      "name": "Trung tâm Tham vấn Tâm lý Học đường Lắng Nghe",
+      "ownership": "private",
+      "fields": [
+        "Tâm lý học giáo dục"
+      ],
+      "address": "96 Thành Thái",
+      "ward": "Diên Hồng",
+      "area": "Quận 10",
+      "lat": 10.768292,
+      "lng": 106.666262,
+      "size": "small",
+      "description": "Tham vấn tâm lý cho học sinh, phụ huynh; triển khai chương trình sức khỏe tinh thần tại trường học.",
+      "positions": [
+        {
+          "title": "Thực tập sinh Tham vấn tâm lý",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "schedule": "3 buổi/tuần",
+          "slots": 2,
+          "roles": [
+            "tu-van-tam-ly"
+          ]
+        },
+        {
+          "title": "Hành chính: điều phối lịch tham vấn",
+          "workType": "Toàn thời gian",
+          "stipend": "Thỏa thuận",
+          "slots": 1,
+          "roles": [
+            "hanh-chinh"
+          ]
+        }
+      ],
+      "partners": [
+        "vlu",
+        "hutech",
+        "hcmue"
+      ],
+      "source": "demo",
+      "phone": "028 0606 2104",
+      "email": "tuyendung@lang-nghe.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Thực tập sinh Tham vấn tâm lý"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Hành chính: điều phối lịch tham vấn"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "tham-hiem-nhi",
+      "name": "Học viện Kỹ năng Nhà Thám Hiểm Nhí",
+      "ownership": "private",
+      "fields": [
+        "Giáo dục học"
+      ],
+      "address": "480 Hoàng Văn Thụ",
+      "ward": "Tân Sơn Nhất",
+      "area": "Tân Bình",
+      "lat": 10.794915,
+      "lng": 106.654823,
+      "size": "medium",
+      "description": "Khóa kỹ năng sống và trại hè trải nghiệm cho học sinh tiểu học và THCS.",
+      "positions": [
+        {
+          "title": "Giáo viên dạy Kỹ năng sống",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "schedule": "Cuối tuần",
+          "slots": 4,
+          "roles": [
+            "giao-vien-ky-nang-song"
+          ]
+        },
+        {
+          "title": "Chuyên viên đào tạo (thực tập)",
+          "workType": "Toàn thời gian",
+          "stipend": "Có phụ cấp",
+          "slots": 1,
+          "roles": [
+            "chuyen-vien-dao-tao"
+          ]
+        }
+      ],
+      "partners": [
+        "ussh-giaoduc"
+      ],
+      "source": "demo",
+      "phone": "028 0643 2217",
+      "email": "tuyendung@tham-hiem-nhi.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Giáo viên dạy Kỹ năng sống"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Chuyên viên đào tạo (thực tập)"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "que-tinh",
+      "name": "Hệ thống Toán Tư duy Que Tính",
+      "ownership": "private",
+      "fields": [
+        "Sư phạm"
+      ],
+      "address": "155 Lũy Bán Bích",
+      "ward": "Tân Phú",
+      "area": "Tân Phú",
+      "lat": 10.789529,
+      "lng": 106.637427,
+      "size": "large",
+      "description": "Hệ thống 12 cơ sở dạy toán tư duy cho trẻ 4-11 tuổi.",
+      "positions": [
+        {
+          "title": "Giáo viên Toán tư duy (thực tập)",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "schedule": "Ca chiều và tối",
+          "slots": 5,
+          "roles": [
+            "giao-vien"
+          ]
+        },
+        {
+          "title": "Tư vấn tuyển sinh",
+          "workType": "Toàn thời gian",
+          "stipend": "Thỏa thuận",
+          "slots": 2,
+          "roles": [
+            "tu-van-tuyen-sinh"
+          ]
+        }
+      ],
+      "partners": [
+        "sgu",
+        "hcmue"
+      ],
+      "source": "demo",
+      "phone": "028 0680 2330",
+      "email": "tuyendung@que-tinh.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Giáo viên Toán tư duy (thực tập)"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Tư vấn tuyển sinh"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "nhip-cau-nghe",
+      "name": "Công ty TNHH Đào tạo Nhịp Cầu Nghề",
+      "ownership": "private",
+      "fields": [
+        "Quản lý giáo dục",
+        "Giáo dục học"
+      ],
+      "address": "Tầng 9, 88 Nam Kỳ Khởi Nghĩa",
+      "ward": "Bến Thành",
+      "area": "Quận 1",
+      "lat": 10.772372,
+      "lng": 106.700745,
+      "size": "medium",
+      "description": "Thiết kế và vận hành chương trình đào tạo nội bộ cho doanh nghiệp bán lẻ và dịch vụ.",
+      "positions": [
+        {
+          "title": "Thực tập sinh Chuyên viên đào tạo",
+          "workType": "Toàn thời gian",
+          "stipend": "Có phụ cấp",
+          "stipendNote": "3.500.000đ/tháng",
+          "slots": 2,
+          "roles": [
+            "chuyen-vien-dao-tao"
+          ]
+        },
+        {
+          "title": "Thực tập sinh Nhân sự và Đào tạo",
+          "workType": "Toàn thời gian",
+          "stipend": "Có phụ cấp",
+          "slots": 1,
+          "roles": [
+            "chuyen-vien-dao-tao",
+            "nhan-su"
+          ]
+        }
+      ],
+      "partners": [
+        "ussh-giaoduc"
+      ],
+      "source": "demo",
+      "phone": "028 0717 2443",
+      "email": "tuyendung@nhip-cau-nghe.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Thực tập sinh Chuyên viên đào tạo"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Thực tập sinh Nhân sự và Đào tạo"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "chim-se",
+      "name": "Thư viện Cộng đồng Chim Sẻ Đọc Sách",
+      "ownership": "private",
+      "fields": [
+        "Giáo dục học"
+      ],
+      "address": "12 Phan Đăng Lưu",
+      "ward": "Bình Thạnh",
+      "area": "Bình Thạnh",
+      "lat": 10.803111,
+      "lng": 106.695239,
+      "size": "small",
+      "description": "Không gian đọc miễn phí cho thiếu nhi; câu lạc bộ đọc hiểu và kể chuyện cuối tuần.",
+      "positions": [
+        {
+          "title": "Điều phối chương trình đọc",
+          "workType": "Linh hoạt",
+          "stipend": "Thỏa thuận",
+          "schedule": "Cuối tuần",
+          "slots": 2,
+          "roles": [
+            "chuyen-vien-dao-tao"
+          ]
+        },
+        {
+          "title": "Trợ giảng lớp đọc hiểu",
+          "workType": "Linh hoạt",
+          "stipend": "Thỏa thuận",
+          "slots": 3,
+          "roles": [
+            "tro-giang"
+          ]
+        }
+      ],
+      "partners": [
+        "ussh-giaoduc",
+        "hiu"
+      ],
+      "source": "demo",
+      "phone": "028 0754 2556",
+      "email": "tuyendung@chim-se.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Điều phối chương trình đọc"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Trợ giảng lớp đọc hiểu"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "bac-thang",
+      "name": "Trung tâm Hướng nghiệp & Luyện thi Bậc Thang",
+      "ownership": "private",
+      "fields": [
+        "Tâm lý học giáo dục",
+        "Giáo dục học"
+      ],
+      "address": "210 Kha Vạn Cân",
+      "ward": "Thủ Đức",
+      "area": "TP. Thủ Đức",
+      "lat": 10.840419,
+      "lng": 106.744596,
+      "size": "small",
+      "description": "Tư vấn chọn ngành, trắc nghiệm hướng nghiệp và luyện thi THPT cho học sinh khu vực Thủ Đức.",
+      "positions": [
+        {
+          "title": "Tư vấn hướng nghiệp (thực tập)",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "slots": 2,
+          "roles": [
+            "tu-van-tam-ly"
+          ]
+        },
+        {
+          "title": "Trợ giảng Toán THPT",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "schedule": "Ca tối",
+          "slots": 2,
+          "roles": [
+            "tro-giang"
+          ]
+        }
+      ],
+      "partners": [
+        "hcmute",
+        "vlu"
+      ],
+      "source": "demo",
+      "phone": "028 0791 2669",
+      "email": "tuyendung@bac-thang.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Tư vấn hướng nghiệp (thực tập)"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Trợ giảng Toán THPT"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "loc-vung",
+      "name": "Trường Song ngữ Liên cấp Lộc Vừng",
+      "ownership": "private",
+      "fields": [
+        "Sư phạm",
+        "Quản lý giáo dục"
+      ],
+      "address": "31 Nguyễn Văn Hưởng",
+      "ward": "An Khánh",
+      "area": "TP. Thủ Đức",
+      "lat": 10.812661,
+      "lng": 106.732659,
+      "size": "large",
+      "description": "Trường song ngữ từ mầm non đến THCS, chương trình tích hợp tiếng Việt và tiếng Anh.",
+      "positions": [
+        {
+          "title": "Trợ giảng song ngữ",
+          "workType": "Toàn thời gian",
+          "stipend": "Có phụ cấp",
+          "stipendNote": "4.000.000đ/tháng",
+          "slots": 4,
+          "roles": [
+            "tro-giang"
+          ]
+        },
+        {
+          "title": "Thực tập sinh Giáo vụ",
+          "workType": "Toàn thời gian",
+          "stipend": "Có phụ cấp",
+          "slots": 1,
+          "roles": [
+            "giao-vu"
+          ]
+        },
+        {
+          "title": "Thực tập sinh Marketing tuyển sinh",
+          "workType": "Toàn thời gian",
+          "stipend": "Có phụ cấp",
+          "slots": 1,
+          "roles": [
+            "marketing",
+            "tu-van-tuyen-sinh"
+          ]
+        }
+      ],
+      "partners": [
+        "hcmue",
+        "ussh-giaoduc",
+        "hiu"
+      ],
+      "source": "demo",
+      "phone": "028 0828 2782",
+      "email": "tuyendung@loc-vung.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Trợ giảng song ngữ"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Thực tập sinh Giáo vụ"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Thực tập sinh Marketing tuyển sinh"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "bang-xanh",
+      "name": "Công ty Học liệu số Bảng Xanh",
+      "ownership": "private",
+      "fields": [
+        "Công nghệ giáo dục"
+      ],
+      "address": "Tầng 3, 364 Cộng Hòa",
+      "ward": "Tân Bình",
+      "area": "Tân Bình",
+      "lat": 10.805074,
+      "lng": 106.636746,
+      "size": "medium",
+      "description": "Sản xuất khóa học e-learning cho doanh nghiệp và trường học; studio quay giảng riêng.",
+      "positions": [
+        {
+          "title": "Thực tập sinh Thiết kế bài giảng e-learning",
+          "workType": "Toàn thời gian",
+          "stipend": "Có phụ cấp",
+          "slots": 2,
+          "roles": [
+            "chuyen-vien-dao-tao"
+          ]
+        },
+        {
+          "title": "Kiểm định nội dung học liệu",
+          "workType": "Linh hoạt",
+          "stipend": "Thỏa thuận",
+          "schedule": "Làm từ xa",
+          "slots": 2,
+          "roles": [
+            "chuyen-vien-dao-tao"
+          ]
+        }
+      ],
+      "partners": [
+        "hcmute"
+      ],
+      "source": "demo",
+      "phone": "028 0865 2895",
+      "email": "tuyendung@bang-xanh.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Thực tập sinh Thiết kế bài giảng e-learning"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Kiểm định nội dung học liệu"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "rai-ca",
+      "name": "Trung tâm Thể chất & Bơi lội Rái Cá Nhỏ",
+      "ownership": "private",
+      "fields": [
+        "Sư phạm"
+      ],
+      "address": "Đường Tên Lửa",
+      "ward": "Bình Tân",
+      "area": "Bình Tân",
+      "lat": 10.756831,
+      "lng": 106.590447,
+      "size": "small",
+      "description": "Dạy bơi an toàn và vận động thể chất cho trẻ 4-12 tuổi.",
+      "positions": [
+        {
+          "title": "Trợ giảng Bơi lội",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "schedule": "Sáng sớm và chiều tối",
+          "slots": 3,
+          "roles": [
+            "tro-giang"
+          ]
+        },
+        {
+          "title": "Hành chính: chăm sóc phụ huynh",
+          "workType": "Bán thời gian",
+          "stipend": "Thỏa thuận",
+          "slots": 1,
+          "roles": [
+            "hanh-chinh"
+          ]
+        }
+      ],
+      "partners": [
+        "upes"
+      ],
+      "source": "demo",
+      "phone": "028 0902 3008",
+      "email": "tuyendung@rai-ca.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Trợ giảng Bơi lội"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Hành chính: chăm sóc phụ huynh"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "ban-tay-noi",
+      "name": "Trung tâm Ngôn ngữ Ký hiệu & Hòa nhập Bàn Tay Nói",
+      "ownership": "private",
+      "fields": [
+        "Giáo dục đặc biệt"
+      ],
+      "address": "590 Trần Hưng Đạo",
+      "ward": "Chợ Quán",
+      "area": "Quận 5",
+      "lat": 10.756321,
+      "lng": 106.683778,
+      "size": "small",
+      "description": "Lớp ngôn ngữ ký hiệu và hỗ trợ học tập cho học sinh khiếm thính học hòa nhập.",
+      "positions": [
+        {
+          "title": "Trợ giảng lớp hòa nhập",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "slots": 2,
+          "roles": [
+            "tro-giang"
+          ]
+        },
+        {
+          "title": "Điều phối dự án cộng đồng",
+          "workType": "Linh hoạt",
+          "stipend": "Thỏa thuận",
+          "slots": 1,
+          "roles": [
+            "hanh-chinh"
+          ]
+        }
+      ],
+      "partners": [
+        "hcmue",
+        "nce"
+      ],
+      "source": "demo",
+      "phone": "028 0939 3121",
+      "email": "tuyendung@ban-tay-noi.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Trợ giảng lớp hòa nhập"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Điều phối dự án cộng đồng"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "rach-chiec",
+      "name": "Trường Tiểu học Thực nghiệm Rạch Chiếc",
+      "ownership": "public",
+      "fields": [
+        "Sư phạm",
+        "Quản lý giáo dục"
+      ],
+      "address": "Đường Đỗ Xuân Hợp",
+      "ward": "Phước Long",
+      "area": "TP. Thủ Đức",
+      "lat": 10.796624,
+      "lng": 106.78106,
+      "size": "medium",
+      "description": "Trường tiểu học công lập thí điểm mô hình lớp học dự án; tiếp nhận giáo sinh kiến tập và thực tập.",
+      "positions": [
+        {
+          "title": "Giáo sinh thực tập sư phạm",
+          "workType": "Toàn thời gian",
+          "stipend": "Thỏa thuận",
+          "schedule": "Theo kế hoạch thực tập của trường",
+          "slots": 6,
+          "roles": [
+            "giao-vien"
+          ]
+        },
+        {
+          "title": "Hỗ trợ thư viện và thiết bị dạy học",
+          "workType": "Bán thời gian",
+          "stipend": "Thỏa thuận",
+          "slots": 1,
+          "roles": [
+            "giao-vu"
+          ]
+        }
+      ],
+      "partners": [
+        "sgu",
+        "hcmute"
+      ],
+      "source": "demo",
+      "phone": "028 0976 3234",
+      "email": "tuyendung@rach-chiec.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Giáo sinh thực tập sư phạm"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Hỗ trợ thư viện và thiết bị dạy học"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "hoa-su",
+      "name": "Trường Mầm non Hoa Sứ",
+      "ownership": "public",
+      "fields": [
+        "Sư phạm"
+      ],
+      "address": "Đường Lý Chính Thắng",
+      "ward": "Nhiêu Lộc",
+      "area": "Quận 3",
+      "lat": 10.780921,
+      "lng": 106.682459,
+      "size": "small",
+      "description": "Trường mầm non công lập, tiếp nhận sinh viên kiến tập và thực tập ngành Giáo dục Mầm non.",
+      "positions": [
+        {
+          "title": "Giáo viên mầm non (thực tập)",
+          "workType": "Toàn thời gian",
+          "stipend": "Thỏa thuận",
+          "slots": 4,
+          "roles": [
+            "giao-vien"
+          ]
+        },
+        {
+          "title": "Hành chính: văn thư",
+          "workType": "Bán thời gian",
+          "stipend": "Thỏa thuận",
+          "slots": 1,
+          "roles": [
+            "hanh-chinh"
+          ]
+        }
+      ],
+      "partners": [
+        "nce",
+        "sgu"
+      ],
+      "source": "demo",
+      "phone": "028 0013 3347",
+      "email": "tuyendung@hoa-su.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Giáo viên mầm non (thực tập)"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Hành chính: văn thư"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "cay-gao",
+      "name": "Trường Liên cấp Tư thục Cây Gạo",
+      "ownership": "private",
+      "fields": [
+        "Sư phạm",
+        "Quản lý giáo dục"
+      ],
+      "address": "533 Kinh Dương Vương",
+      "ward": "An Lạc",
+      "area": "Bình Tân",
+      "lat": 10.737008,
+      "lng": 106.61595,
+      "size": "large",
+      "description": "Trường liên cấp tiểu học, THCS và THPT với hơn 1.500 học sinh.",
+      "positions": [
+        {
+          "title": "Giáo viên bộ môn (thực tập)",
+          "workType": "Toàn thời gian",
+          "stipend": "Có phụ cấp",
+          "slots": 5,
+          "roles": [
+            "giao-vien"
+          ]
+        },
+        {
+          "title": "Thực tập sinh Giáo vụ",
+          "workType": "Toàn thời gian",
+          "stipend": "Có phụ cấp",
+          "slots": 2,
+          "roles": [
+            "giao-vu"
+          ]
+        }
+      ],
+      "partners": [
+        "hcmue",
+        "sgu",
+        "upes"
+      ],
+      "source": "demo",
+      "phone": "028 0050 3460",
+      "email": "tuyendung@cay-gao.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Giáo viên bộ môn (thực tập)"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Thực tập sinh Giáo vụ"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "thap-den",
+      "name": "Quỹ Giáo dục Thắp Đèn",
+      "ownership": "private",
+      "fields": [
+        "Quản lý giáo dục",
+        "Giáo dục học"
+      ],
+      "address": "35 Nguyễn Đình Chiểu",
+      "ward": "Sài Gòn",
+      "area": "Quận 1",
+      "lat": 10.787361,
+      "lng": 106.699527,
+      "size": "small",
+      "description": "Tổ chức phi lợi nhuận cấp học bổng và mở lớp học cộng đồng cho học sinh khó khăn.",
+      "positions": [
+        {
+          "title": "Điều phối chương trình học bổng",
+          "workType": "Linh hoạt",
+          "stipend": "Có phụ cấp",
+          "slots": 1,
+          "roles": [
+            "hanh-chinh"
+          ]
+        },
+        {
+          "title": "Thực tập sinh Truyền thông",
+          "workType": "Bán thời gian",
+          "stipend": "Thỏa thuận",
+          "slots": 1,
+          "roles": [
+            "marketing"
+          ]
+        }
+      ],
+      "partners": [
+        "ussh-giaoduc"
+      ],
+      "source": "demo",
+      "phone": "028 0087 3573",
+      "email": "tuyendung@thap-den.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Điều phối chương trình học bổng"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Thực tập sinh Truyền thông"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "muoi-gio",
+      "name": "Trung tâm Nghệ thuật Thiếu nhi Hoa Mười Giờ",
+      "ownership": "private",
+      "fields": [
+        "Sư phạm"
+      ],
+      "address": "410 Quang Trung",
+      "ward": "Gò Vấp",
+      "area": "Gò Vấp",
+      "lat": 10.832669,
+      "lng": 106.668915,
+      "size": "small",
+      "description": "Lớp vẽ, âm nhạc và kịch cho thiếu nhi; triển lãm học viên mỗi quý.",
+      "positions": [
+        {
+          "title": "Trợ giảng Mỹ thuật",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "schedule": "Cuối tuần",
+          "slots": 2,
+          "roles": [
+            "tro-giang"
+          ]
+        },
+        {
+          "title": "Tư vấn tuyển sinh",
+          "workType": "Bán thời gian",
+          "stipend": "Thỏa thuận",
+          "slots": 1,
+          "roles": [
+            "tu-van-tuyen-sinh"
+          ]
+        }
+      ],
+      "partners": [
+        "sgu"
+      ],
+      "source": "demo",
+      "phone": "028 0124 3686",
+      "email": "tuyendung@muoi-gio.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Trợ giảng Mỹ thuật"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Tư vấn tuyển sinh"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "doi-thong",
+      "name": "Trung tâm Giáo dục Kỹ năng Đồi Thông",
+      "ownership": "private",
+      "fields": [
+        "Giáo dục học",
+        "Công nghệ giáo dục"
+      ],
+      "address": "Đường Lê Văn Việt",
+      "ward": "Tăng Nhơn Phú",
+      "area": "TP. Thủ Đức",
+      "lat": 10.847254,
+      "lng": 106.795734,
+      "size": "medium",
+      "description": "Kỹ năng sống, STEAM và câu lạc bộ khoa học cho học sinh khu Công nghệ cao.",
+      "positions": [
+        {
+          "title": "Giáo viên dạy Kỹ năng sống",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "slots": 3,
+          "roles": [
+            "giao-vien-ky-nang-song"
+          ]
+        },
+        {
+          "title": "Trợ giảng STEAM",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "schedule": "Thứ Hai đến Thứ Sáu, 14:00-16:00",
+          "slots": 2,
+          "roles": [
+            "giao-vien-steam",
+            "tro-giang"
+          ]
+        }
+      ],
+      "partners": [
+        "hcmute",
+        "ussh-giaoduc"
+      ],
+      "source": "demo",
+      "phone": "028 0161 3799",
+      "email": "tuyendung@doi-thong.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Giáo viên dạy Kỹ năng sống"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Trợ giảng STEAM"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "o-cua",
+      "name": "Trung tâm Học tập Ô Cửa",
+      "ownership": "private",
+      "fields": [
+        "Sư phạm"
+      ],
+      "address": "Đường Phạm Thế Hiển",
+      "ward": "Bình Đông",
+      "area": "Quận 8",
+      "lat": 10.708734,
+      "lng": 106.623411,
+      "size": "small",
+      "description": "Lớp học thêm Toán và Văn THCS theo nhóm nhỏ, kèm học sinh mất gốc.",
+      "positions": [
+        {
+          "title": "Trợ giảng Toán và Ngữ văn THCS",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "schedule": "Ca tối",
+          "slots": 3,
+          "roles": [
+            "tro-giang"
+          ]
+        },
+        {
+          "title": "Thực tập sinh Giáo vụ",
+          "workType": "Bán thời gian",
+          "stipend": "Thỏa thuận",
+          "slots": 1,
+          "roles": [
+            "giao-vu"
+          ]
+        }
+      ],
+      "partners": [
+        "sgu",
+        "hcmue"
+      ],
+      "source": "demo",
+      "phone": "028 0198 3912",
+      "email": "tuyendung@o-cua.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Trợ giảng Toán và Ngữ văn THCS"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Thực tập sinh Giáo vụ"
+        }
+      ],
+      "type": "internship"
+    },
+    {
+      "id": "banh-rang",
+      "name": "Học viện Robotics Bánh Răng",
+      "ownership": "private",
+      "fields": [
+        "Công nghệ giáo dục",
+        "Sư phạm"
+      ],
+      "address": "Đường Hoàng Diệu",
+      "ward": "Vĩnh Hội",
+      "area": "Quận 4",
+      "lat": 10.758622,
+      "lng": 106.698041,
+      "size": "small",
+      "description": "Lập trình robot và chuẩn bị thi đấu robotics cho học sinh THCS.",
+      "positions": [
+        {
+          "title": "Trợ giảng Robotics",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "slots": 2,
+          "roles": [
+            "giao-vien-steam",
+            "tro-giang"
+          ]
+        },
+        {
+          "title": "Giáo viên STEM (thực tập)",
+          "workType": "Bán thời gian",
+          "stipend": "Có phụ cấp",
+          "slots": 1,
+          "roles": [
+            "giao-vien-steam"
+          ]
+        }
+      ],
+      "partners": [
+        "hcmute",
+        "nttu"
+      ],
+      "source": "demo",
+      "phone": "028 0235 4025",
+      "email": "tuyendung@banh-rang.example",
+      "website": null,
+      "documents": [
+        {
+          "kind": "plan",
+          "title": "Kế hoạch tiếp nhận thực tập sinh năm 2026"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Trợ giảng Robotics"
+        },
+        {
+          "kind": "jd",
+          "title": "Mô tả công việc: Giáo viên STEM (thực tập)"
+        }
+      ],
+      "type": "internship"
+    }
+  ]
+}

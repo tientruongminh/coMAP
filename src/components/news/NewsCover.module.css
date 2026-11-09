@@ -1,0 +1,27 @@
+/* Map motif covers. Motion renders the hidden first frame on the server; reduced
+   motion must still see the finished drawing, so these rules force it (same
+   markup on server and client, like [data-reveal] in globals.css). */
+.cover svg {
+  transition: transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (hover: hover) {
+  :global(.group\/card):hover .cover svg,
+  :global(.group\/lead):hover .cover svg {
+    transform: scale(1.03);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cover [data-draw] {
+    stroke-dasharray: none !important;
+    stroke-dashoffset: 0 !important;
+  }
+  .cover [data-pin] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  .cover svg {
+    transform: none !important;
+  }
+}

@@ -1,0 +1,16 @@
+/*
+ * Final states for reduced motion that the shared [data-reveal] rule in
+ * globals.css cannot express (it only resets opacity and transform).
+ */
+@media (prefers-reduced-motion: reduce) {
+  /* A drawn line is simply there. */
+  .draw {
+    stroke-dasharray: none !important;
+    stroke-dashoffset: 0 !important;
+    opacity: 1 !important;
+  }
+  /* A filtered-out dot rests at its dimmed opacity. */
+  .dim {
+    opacity: 0.18 !important;
+  }
+}
